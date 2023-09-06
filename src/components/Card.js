@@ -15,7 +15,7 @@ const Card = ({shortText, extraText, image}) => {
   }
 
   return (
-  <section className="card-box">
+  <section className="card-box expanded">
     <p>{shortText}</p>
     <p>{extraText}</p>
     <p>{image}</p>
