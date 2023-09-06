@@ -14,8 +14,27 @@ const Card = ({shortText, extraText, image}) => {
     console.log(cardNum);
   }
 
+  const toggleExpandCard = (cardNum) => {
+    let cardSizeStyle = 'expanded';
+
+    // cardSizeStyle = 
+    if (cardNum > 0) {
+      cardSizeStyle = 'expanded';
+    } else {
+      cardSizeStyle = '';
+    }
+
+    // if (cardSizeStyle === 'expanded') {
+    //   cardSizeStyle = '';
+    // } else {
+    //   cardSizeStyle = 'expanded';
+    // }
+
+    return `card-box ${cardSizeStyle}`;
+  }
+
   return (
-  <section className="card-box expanded">
+  <section className={toggleExpandCard(cardNum)}>
     <p>{shortText}</p>
     <p>{extraText}</p>
     <p>{image}</p>
