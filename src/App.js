@@ -5,7 +5,11 @@ import './components/Card.css';
 
 function App() {
   return (
-    <Card shortText="hello" extraText="world" image="it's been real"/>
+    <Card 
+      shortText="Hello! :) My name is Abby Castillo. I am a software developer and interdisciplinary artist based in Portland, OR."
+      extraText="extra text go here"
+      image="[ IMAGE ]"
+    />
   );
 }
 
