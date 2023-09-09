@@ -6,8 +6,8 @@ import './components/Card.css';
 function App() {
   return (
     <Card 
-      shortText="Hello! :) My name is Abby Castillo. I am a software developer and interdisciplinary artist based in Portland, OR."
-      extraText="extra text go here"
+      mainText="Hello! :) My name is Abby Castillo. I am a software developer and interdisciplinary artist based in Portland, OR."
+      extraText="I'm very smart in fact and I have lots of great ideas."
       image="[ IMAGE ]"
     />
   );
