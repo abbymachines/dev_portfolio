@@ -5,6 +5,7 @@ function Card(props) {
     <div>
       <p>{props.mainText}</p>
       <p>{props.extraText}</p>
+      <p>{props.image}</p>
     </div>
   )
 }
