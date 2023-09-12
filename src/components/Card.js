@@ -2,7 +2,7 @@ import './Card.css';
 
 function Card(props) {
   return (
-    <div>
+    <div className='card-box'>
       <p>{props.mainText}</p>
       <p>{props.extraText}</p>
       <p>{props.image}</p>
