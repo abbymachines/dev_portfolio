@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import Card from './components/Card';
+import Cards from './components/Cards';
 import './App.css';
 import './components/Card.css';
 
@@ -24,21 +25,7 @@ const cards = [
 function App() {
   return (
     <div>
-      <Card 
-        mainText={cards[0].mainText}
-        extraText={cards[0].extraText}
-        image={cards[0].image}
-      />
-      <Card 
-        mainText={cards[1].mainText}
-        extraText={cards[1].extraText}
-        image={cards[1].image}
-      />
-      <Card 
-        mainText={cards[2].mainText}
-        extraText={cards[2].extraText}
-        image={cards[2].image}
-      />
+      <Cards cardsData={cards} />
     </div>
   );
 }
