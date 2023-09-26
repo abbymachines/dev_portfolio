@@ -1,8 +1,9 @@
 // import logo from './logo.svg';
-import Card from './components/Card';
+// import Card from './components/Card';
 import Cards from './components/Cards';
 import './App.css';
 import './components/Card.css';
+import './components/Cards.css';
 
 const cards = [
   {
@@ -25,7 +26,7 @@ const cards = [
 function App() {
   return (
     <div>
-      <Cards cardsData={cards} />
+      <Cards cardsData={cards} className='cardslist-center'/>
     </div>
   );
 }
