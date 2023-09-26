@@ -25,8 +25,8 @@ const cards = [
 
 function App() {
   return (
-    <div>
-      <Cards cardsData={cards} className='cardslist-center'/>
+    <div className='cardslist-center'>
+      <Cards cardsData={cards} />
     </div>
   );
 }
