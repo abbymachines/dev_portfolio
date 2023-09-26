@@ -27,7 +27,9 @@ function App() {
   return (
     <div className='cardslist-center'>
       <Cards cardsData={cards} />
+      <p></p><p></p><p></p>
     </div>
+    
   );
 }
 
