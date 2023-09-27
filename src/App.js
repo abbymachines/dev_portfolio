@@ -27,7 +27,7 @@ const cards = [
 function App() {
   return (
     <div className='background'>
-      <Body data={cards} />
+      <Cards cardsData={cards} />
     </div>
     
   );
