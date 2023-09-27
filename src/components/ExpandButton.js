@@ -1,11 +1,8 @@
-function ExpandButton() {
-  function helloWorld() {
-    console.log(helloWorld);
-  }
+function ExpandButton(props) {
 
   return (
     <div>
-      <button onClick={helloWorld}>expand mi :3 ▶️</button>
+      <button onClick={props.clickFunction}>expand mi :3 ▶️</button>
     </div>
   )
 }
