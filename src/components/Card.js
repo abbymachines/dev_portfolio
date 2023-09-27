@@ -1,4 +1,5 @@
 import './Card.css';
+import ExpandButton from './ExpandButton';
 
 function Card(props) {
   return (
@@ -6,6 +7,7 @@ function Card(props) {
       <p>{props.mainText}</p>
       <p>{props.extraText}</p>
       <p>{props.image}</p>
+      <ExpandButton />
     </div>
   )
 }
