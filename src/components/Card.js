@@ -7,10 +7,10 @@ function Card(props) {
 
   const [cardStyle, setCardStyle] = useState('card-box center');
 
-  const styles = ['card-box center', 'card-box center expanded'];
+  // const styles = ['card-box center', 'card-box center expanded'];
 
-  const toggleExpand = () => {
-    
+  const expandCard = () => {
+    setCardStyle('card-box center expanded')
   }
 
   return (
@@ -18,7 +18,7 @@ function Card(props) {
       <p>{props.mainText}</p>
       <p>{props.extraText}</p>
       <p>{props.image}</p>
-      <ExpandButton clickHandler={toggleExpand} />
+      <ExpandButton clickHandler={expandCard} />
     </div>
   )
 }
