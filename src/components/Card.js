@@ -10,14 +10,14 @@ function Card(props) {
   // const isExpanded = props.isExpanded;
 
   const [isExpanded, setIsExpanded] = useState(false);
-  const [cardStyle, setCardStyle] = useState('card-box center');
+  const [cardStyle, setCardStyle] = useState('card-box');
 
   const expandCard = () => {
     if (isExpanded === false) {
-      setCardStyle('card-box center expanded');
+      setCardStyle('card-box expanded');
       setIsExpanded(true);
     } else {
-      setCardStyle('card-box center');
+      setCardStyle('card-box');
       setIsExpanded(false);
     }
 
