@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 // import Card from './components/Card';
 import Cards from './components/Cards';
+import Pet from './components/vpet/Pet';
 import './App.css';
 import './components/Card.css';
 import './components/Cards.css';
@@ -29,6 +30,7 @@ const cards = [
 function App() {
   return (
     <div className='background'>
+      <Pet />
       <Cards cardsData={cards} />
     </div>
     
