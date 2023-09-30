@@ -4,13 +4,24 @@ import { useState } from 'react';
 
 function Card(props) {
   // const cardStyle = 'card-box center';
+  const mainText = props.mainText;
+  const extraText = props.extraText;
+  const image = props.image;
+  // const isExpanded = props.isExpanded;
 
+  const [isExpanded, setIsExpanded] = useState(false);
   const [cardStyle, setCardStyle] = useState('card-box center');
 
-  // const styles = ['card-box center', 'card-box center expanded'];
-
   const expandCard = () => {
-    setCardStyle('card-box center expanded')
+    if (isExpanded === false) {
+      setCardStyle('card-box center expanded');
+      setIsExpanded(true);
+    } else {
+      setCardStyle('card-box center');
+      setIsExpanded(false);
+    }
+
+
   }
 
   return (
