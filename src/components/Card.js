@@ -9,8 +9,8 @@ function Card(props) {
   const image = props.image;
   // const isExpanded = props.isExpanded;
 
-  const [isExpanded, setIsExpanded] = useState(false);
-  const [cardStyle, setCardStyle] = useState('card-box');
+  const [isExpanded, setIsExpanded] = useState(true);
+  const [cardStyle, setCardStyle] = useState('card-box expanded');
 
   const expandCard = () => {
     if (isExpanded === false) {
