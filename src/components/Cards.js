@@ -2,9 +2,9 @@ import Card from "./Card";
 import Markdown from "markdown-to-jsx";
 // import 
 
+
 function Cards(props) {
   const cards = props.cardsData;
-
   // for (let i = 0; i < cards.length; i++) {
   //   return <p><Card
   //     body={cards[i]["body"]}
@@ -12,35 +12,19 @@ function Cards(props) {
   //   /></p>
   // }
 
-
   return (
     <ul>
-    <Card
-      title = {cards["wormchat"]["title"]}
-      body = {cards["wormchat"]["body"]}
-    />
+    {/* <Card
+      title = {cards[0]["title"]}
+      body = {cards[0]["body"]}
+    /> */}
+    {cards.map(function(card, index){
+      return <li key={ index }>
+        <p>{card["title"]}</p>
+        <p>{card["body"]}</p>
+      </li>
+    })}
     </ul>
-    
-    // <ul className="cardslist-center">
-    //   <li>
-    //   <Card 
-    //     mainText={cards[0].mainText}
-    //     extraText={cards[0].extraText}
-    //     image={cards[0].image}
-    //   /> </li>
-    //   <li>
-    //   <Card 
-    //     mainText={cards[1].mainText}
-    //     extraText={cards[1].extraText}
-    //     image={cards[1].image}
-    //   /> </li>
-    //   <li>
-    //   <Card 
-    //     mainText={cards[2].mainText}
-    //     extraText={cards[2].extraText}
-    //     image={cards[2].image}
-    //   /> </li>
-    // </ul>
   )
 }
 
