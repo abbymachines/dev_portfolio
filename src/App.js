@@ -110,7 +110,7 @@ Data visualization/sonification made with MAX M/S/P. Created as a project during
   {
     "title": "wormchat",
     "body": `
-    ![screenshot of wormchat](assets/wormchat0.png)
+  ![screenshot of wormchat](assets/wormchat0.png)
 
 Part of **One Thousand Machines v1.1**. Excerpted [from abbymachines.art](https://abbymachines.art/A/OneThousandMachines_v1-1/): *2022.5.2. This one is in lieu of my April report. I thought this time I would just embed wormchat (v1), my first attempt at an interactive chatbot. Building this has taught me a bit more about Markov chains, though I am still trying to wrap my head around them. You can see the source code (along with comments) at the following link: https://abbymachines.art/A/OneThousandMachines_v1-1/wormchat_v1/sketch.js.*
     `
@@ -118,7 +118,7 @@ Part of **One Thousand Machines v1.1**. Excerpted [from abbymachines.art](https:
   {
     "title": "Education",
     "body": `
-    **Ada Developers Academy**, full-stack web development
+**Ada Developers Academy**, full-stack web development
 
 **Portland Community College**, Creative Coding & Immersive Technologies.
 
