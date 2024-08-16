@@ -4,9 +4,9 @@ import { useState } from 'react';
 
 function Card(props) {
   // const cardStyle = 'card-box center';
-  const mainText = props.mainText;
-  const extraText = props.extraText;
-  const image = props.image;
+  const body = props.body;
+  // const extraText = props.extraText;
+  const title = props.title;
   // const isExpanded = props.isExpanded;
 
   const [isExpanded, setIsExpanded] = useState(true);
@@ -26,9 +26,10 @@ function Card(props) {
 
   return (
     <div className={cardStyle}>
-      <p>{props.mainText}</p>
-      <p>{props.extraText}</p>
-      <p>{props.image}</p>
+      <p>{props.title}</p>
+      <p>{props.body}</p>
+      {/* <p>{props.extraText}</p> */}
+      {/* <p>{props.image}</p> */}
       <ExpandButton clickHandler={expandCard} />
     </div>
   )
