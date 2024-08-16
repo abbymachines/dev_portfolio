@@ -9,7 +9,7 @@ import './components/Cards.css';
 const cards = [
   {
     mainText: "Hello! :) My name is Abby Castillo. I am a software developer and interdisciplinary artist based in Portland, OR.",
-    extraText: "I'm very smart in fact and I have lots of great ideas.",
+    extraText: "email: [abby.machines@gmail.com] / linkedin: [https://linkedin.com/in/abbycc] / artist CV: [https://abbymachines.art]",
     image: "[ IMAGE ]",
     isExpanded: false,
   },
@@ -30,7 +30,7 @@ const cards = [
 function App() {
   return (
     <div className='background'>
-      <Pet />
+      {/* <Pet /> */}
       <Cards cardsData={cards} />
     </div>
     
