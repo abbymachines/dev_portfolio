@@ -1,6 +1,7 @@
 import './Card.css';
 import ExpandButton from './ExpandButton';
 import { useState } from 'react';
+import Markdown from 'markdown-to-jsx'
 
 function Card(props) {
   // const cardStyle = 'card-box center';
@@ -27,7 +28,7 @@ function Card(props) {
   return (
     <div className={cardStyle}>
       <h2>{props.title}</h2>
-      <p>{props.body}</p>
+      <p><Markdown>{props.body}</Markdown></p>
       {/* <p>{props.extraText}</p> */}
       {/* <p>{props.image}</p> */}
       <ExpandButton clickHandler={expandCard} />
