@@ -18,12 +18,16 @@ function Cards(props) {
       title = {cards[0]["title"]}
       body = {cards[0]["body"]}
     /> */}
-    {cards.map(function(card, index){
-      return <li key={ index }>
-        <p>{card["title"]}</p>
-        <p>{card["body"]}</p>
-      </li>
-    })}
+      {cards.map(function(card, index){
+        return <li key={ index }>
+          <Card
+            title={card["title"]}
+            body={card["body"]}
+          // <p>{card["title"]}</p>
+          // <p>{card["body"]}</p>
+          />
+        </li>
+      })}
     </ul>
   )
 }
