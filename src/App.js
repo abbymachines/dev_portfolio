@@ -47,7 +47,7 @@ const cards = [
   {
     "title": "Skills",
     "body": `
-    | LANGUAGES | FRONT-END |
+| LANGUAGES | FRONT-END |
 | --- | --- |
 | Python ![Python](assets/skills_icons/python.png) | Flutter ![Flutter](assets/skills_icons/flutter.png) |
 | Dart ![Dart](assets/skills_icons/dart.png) | React.js |
@@ -80,13 +80,13 @@ const cards = [
   {
     "title": "A (AR video series)",
     "body": `
-    'A' is a series of AR videos made with Meta Spark Studio. Part of a 2023 Precipice Fund grant. Videos online at [TikTok](https://tiktok.com/@abbymachines).
+'A' is a series of AR videos made with Meta Spark Studio. Part of a 2023 Precipice Fund grant. Videos online at [TikTok](https://tiktok.com/@abbymachines).
     `
   },
   {
     "title": "Tama Habits",
     "body": `
-    **Tama Habits** is a habit tracker attached to a tamagotchi-style virtual pet. A demo of this app was first developed as my capstone project at the Ada Developers Academy. It is currently in development using **Flutter** for **Android**, **iOS**, and the **web**.
+**Tama Habits** is a habit tracker attached to a tamagotchi-style virtual pet. A demo of this app was first developed as my capstone project at the Ada Developers Academy. It is currently in development using **Flutter** for **Android**, **iOS**, and the **web**.
 
 The app allows you to keep a list of habits and track their completion over time.
 
@@ -98,13 +98,13 @@ When habits are incomplete, the pet gets hungry and sick. Completing habits feed
   {
     "title": "AbbyCastillo.dev",
     "body": `
-    'The website you are currently visiting. :) Developed in **React.js**.'
+The website you are currently visiting. :) Developed in **React.js**.
     `
   },
   {
     "title": "The Extent of Our Knowledge",
     "body": `
-    Data visualization/sonification made with MAX M/S/P. Created as a project during the Creative Coding & Immersive Technologies program at Portland Community College. Documents weekly COVID deaths from 2020-2022 as audio and visuals. [Video available on YouTube.](https://www.youtube.com/watch?v=xNiid90HxCQ)'
+Data visualization/sonification made with MAX M/S/P. Created as a project during the Creative Coding & Immersive Technologies program at Portland Community College. Documents weekly COVID deaths from 2020-2022 as audio and visuals. [Video available on YouTube.](https://www.youtube.com/watch?v=xNiid90HxCQ)
     `
   },
   {
