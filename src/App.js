@@ -133,7 +133,8 @@ function App() {
   return (
     <div className='background'>
       {/* <Pet /> */}
-      <center><h1 className='main-title'>AbbyCastillo.dev</h1></center>
+      <center><h1 className='white-text'>Abby Castillo</h1></center>
+      <center className='white-text'>full-stack software engineer</center>
       <Cards cardsData={cards} />
     </div>
     
