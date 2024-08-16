@@ -1,5 +1,6 @@
 .cardslist-center {
-    display: flex;
+    /* display: flex; */
+    display: grid;
     flex-direction: column;
     justify-content: center;
     align-items: center;
