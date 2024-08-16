@@ -26,7 +26,7 @@ function Card(props) {
 
   return (
     <div className={cardStyle}>
-      <p>{props.title}</p>
+      <h2>{props.title}</h2>
       <p>{props.body}</p>
       {/* <p>{props.extraText}</p> */}
       {/* <p>{props.image}</p> */}
