@@ -13,7 +13,7 @@ function Cards(props) {
   // }
 
   return (
-    <ul>
+    <ul className="cardslist-center">
     {/* <Card
       title = {cards[0]["title"]}
       body = {cards[0]["body"]}
