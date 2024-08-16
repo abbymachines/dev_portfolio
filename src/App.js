@@ -35,15 +35,15 @@ const cards = [
 
   I am a full-stack software engineer and interdisciplinary artist based in Portland, OR.
 
-  **email**: abby.machines@gmail.com
+  💌 **email**: abby.machines@gmail.com
 
-  **dev blog**: https://abbycastillodev.wordpress.com
+  👩🏻‍💻 **dev blog**: https://abbycastillodev.wordpress.com
 
-  **GitHub**: https://github.com/abbymachines
+  🐈‍⬛ **GitHub**: https://github.com/abbymachines
   
-  **LinkedIn**: https://www.linkedin.com/in/abbycc/
+  💼 **LinkedIn**: https://www.linkedin.com/in/abbycc/
   
-  **Artist C.V.**: https://abbymachines.art/cv
+  🏆 **Artist C.V.**: https://abbymachines.art/cv
     `
   },
 //   {
@@ -133,7 +133,7 @@ function App() {
   return (
     <div className='background'>
       {/* <Pet /> */}
-      <center><h1 color="white">AbbyCastillo.dev</h1></center>
+      <center><h1 className='main-title'>AbbyCastillo.dev</h1></center>
       <Cards cardsData={cards} />
     </div>
     
