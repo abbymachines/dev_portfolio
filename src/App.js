@@ -35,48 +35,50 @@ const cards = [
 
   I am a full-stack software engineer and interdisciplinary artist based in Portland, OR.
 
-  email: abby.machines@gmail.com
+  **email**: abby.machines@gmail.com
 
-  GitHub: https://github.com/abbymachines
+  **dev blog**: https://abbycastillodev.wordpress.com
+
+  **GitHub**: https://github.com/abbymachines
   
-  LinkedIn: https://www.linkedin.com/in/abbycc/
+  **LinkedIn**: https://www.linkedin.com/in/abbycc/
   
-  Artist C.V.: https://abbymachines.art/cv
+  **Artist C.V.**: https://abbymachines.art/cv
     `
   },
-  {
-    "title": "Skills",
-    "body": `
-| LANGUAGES | FRONT-END |
-| --- | --- |
-| Python ![Python](assets/skills_icons/python.png) | Flutter ![Flutter](assets/skills_icons/flutter.png) |
-| Dart ![Dart](assets/skills_icons/dart.png) | React.js |
-| JavaScript | HTML |
-| Java | CSS |
-| Max/MSP | Processing |
-| | P5 |
+//   {
+//     "title": "Skills",
+//     "body": `
+// | LANGUAGES | FRONT-END |
+// | --- | --- |
+// | Python ![Python](assets/skills_icons/python.png) | Flutter ![Flutter](assets/skills_icons/flutter.png) |
+// | Dart ![Dart](assets/skills_icons/dart.png) | React.js |
+// | JavaScript | HTML |
+// | Java | CSS |
+// | Max/MSP | Processing |
+// | | P5 |
           
 
-| BACK-END | OTHER SKILLS |
-| --- | --- |
-| Ruby on Rails | REST APIs |
-| Flask | |
-| PostgreSQL | Time/Space Complexity Analysis (Big O) |
-| Firebase | microcontrollers (Arduino, Teensy) |
-| SQLAlchemy | Git & GitHub |
-|  | app deployment |
-| | test-driven development (Pytest) |
-| | Jupyter Notebooks |
+// | BACK-END | OTHER SKILLS |
+// | --- | --- |
+// | Ruby on Rails | REST APIs |
+// | Flask | |
+// | PostgreSQL | Time/Space Complexity Analysis (Big O) |
+// | Firebase | microcontrollers (Arduino, Teensy) |
+// | SQLAlchemy | Git & GitHub |
+// |  | app deployment |
+// | | test-driven development (Pytest) |
+// | | Jupyter Notebooks |
 
-| CREATIVE | SaaS |
-| --- | --- |
-| Ableton Live | Neon CRM | Jira |
-| Figma | Mailchimp |
-| Affinity Suite (Photo, Designer, Publisher) | Asana |
-| Adobe Suite (Photoshop, Illustrator, InDesign) | Zoom |
-| DaVinci Resolve | Google Workspaces | Canva |
-    `
-  },
+// | CREATIVE | SaaS |
+// | --- | --- |
+// | Ableton Live | Neon CRM | Jira |
+// | Figma | Mailchimp |
+// | Affinity Suite (Photo, Designer, Publisher) | Asana |
+// | Adobe Suite (Photoshop, Illustrator, InDesign) | Zoom |
+// | DaVinci Resolve | Google Workspaces | Canva |
+//     `
+//   },
   {
     "title": "A (AR video series)",
     "body": `
@@ -92,7 +94,7 @@ The app allows you to keep a list of habits and track their completion over time
 
 When habits are incomplete, the pet gets hungry and sick. Completing habits feeds the pet and makes it happier.
 
-![](assets/tamahabits0.png)
+![tama habits screenshot](/assets/tamahabits0.png)
     `
   },
   {
@@ -110,7 +112,7 @@ Data visualization/sonification made with MAX M/S/P. Created as a project during
   {
     "title": "wormchat",
     "body": `
-  ![screenshot of wormchat](assets/wormchat0.png)
+  ![screenshot of wormchat](/assets/wormchat0.png)
 
 Part of **One Thousand Machines v1.1**. Excerpted [from abbymachines.art](https://abbymachines.art/A/OneThousandMachines_v1-1/): *2022.5.2. This one is in lieu of my April report. I thought this time I would just embed wormchat (v1), my first attempt at an interactive chatbot. Building this has taught me a bit more about Markov chains, though I am still trying to wrap my head around them. You can see the source code (along with comments) at the following link: https://abbymachines.art/A/OneThousandMachines_v1-1/wormchat_v1/sketch.js.*
     `
