@@ -31,7 +31,7 @@ function Card(props) {
       <p><Markdown>{props.body}</Markdown></p>
       {/* <p>{props.extraText}</p> */}
       {/* <p>{props.image}</p> */}
-      <ExpandButton clickHandler={expandCard} />
+      {/* <ExpandButton clickHandler={expandCard} /> */}
     </div>
   )
 }
