@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 // import Card from './components/Card';
 import Cards from './components/Cards';
-import Pet from './components/vpet/Pet';
+// import Pet from './components/vpet/Pet';
 import './App.css';
 import './components/Card.css';
 import './components/Cards.css';
@@ -115,6 +115,14 @@ Data visualization/sonification made with MAX M/S/P. Created as a project during
   ![screenshot of wormchat](/assets/wormchat0.png)
 
 Part of **One Thousand Machines v1.1**. Excerpted [from abbymachines.art](https://abbymachines.art/A/OneThousandMachines_v1-1/): *2022.5.2. This one is in lieu of my April report. I thought this time I would just embed wormchat (v1), my first attempt at an interactive chatbot. Building this has taught me a bit more about Markov chains, though I am still trying to wrap my head around them. You can see the source code (along with comments) at the following link: https://abbymachines.art/A/OneThousandMachines_v1-1/wormchat_v1/sketch.js.*
+    `
+  },
+  {
+    "title": "A Series of Interconnected Delights",
+    "body": `
+[Capstone group show](https://www.pcc.edu/galleries/2022/06/14/a-series-of-interconnected-delights-a-collaborative-project-by-the-2022-pcc-creative-coding-capstone-class/) for the Creative Coding & Immersive Technologies program at Portland Community College.
+
+My contribution made use of the Ableton Live API to launch randomly-selected pre-arranged clips from a set of different virtual instruments. This script was routed through physical buttons powered by Teensyduino microprocessors.
     `
   },
   {
