@@ -33,6 +33,8 @@ const cards = [
     "body": `
   Hello! :) My name is Abby Castillo.
 
+  ![Abby Castillo portrait](/assets/portrait.jpg)
+
   I am a full-stack software engineer and interdisciplinary artist based in Portland, OR.
 
   💌 **email**: abby.machines@gmail.com
