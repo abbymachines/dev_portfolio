@@ -82,6 +82,16 @@ const cards = [
 //     `
 //   },
   {
+    "title": "realgirl.online",
+    "body": `
+![realgirl.online screenshot](/assets/realgirl_online.png)
+
+[realgirl.online](https://realgirl.online) is a webzine, an experiment in getting lost and finding myself again. it is an adaptation of my print zine series, realgirl1994, which began as part of a 2020 residency at the Independent Publishing Resource Center in Portland, OR.
+
+Frontend made in React.js, backend made with WordPress.
+      `
+  },
+  {
     "title": "A (AR video series)",
     "body": `
 'A' is a series of AR videos made with Meta Spark Studio. Part of a 2023 Precipice Fund grant. Videos online at [TikTok](https://tiktok.com/@abbymachines).
