@@ -37,15 +37,15 @@ const cards = [
 
   I am a full-stack software engineer and interdisciplinary artist based in Portland, OR.
 
-  💌 **email**: abby.machines@gmail.com
+  💌 [**email**](mailto:abby.machines@gmail.com)
 
-  👩🏻‍💻 **dev blog**: https://abbycastillodev.wordpress.com
+  👩🏻‍💻 [**dev blog**](https://abbycastillodev.wordpress.com)
 
-  🐈‍⬛ **GitHub**: https://github.com/abbymachines
+  🐈‍⬛ [**GitHub**](https://github.com/abbymachines)
   
-  💼 **LinkedIn**: https://www.linkedin.com/in/abbycc/
+  💼 [**LinkedIn**](https://www.linkedin.com/in/abbycc/)
   
-  🏆 **Artist C.V.**: https://abbymachines.art/cv
+  🏆 [**Artist C.V.**](https://abbymachines.art/cv)
     `
   },
 //   {
@@ -126,7 +126,7 @@ Data visualization/sonification made with MAX M/S/P. Created as a project during
     "body": `
   ![screenshot of wormchat](/assets/wormchat0.png)
 
-Part of **One Thousand Machines v1.1**. Excerpted [from abbymachines.art](https://abbymachines.art/A/OneThousandMachines_v1-1/): *2022.5.2. This one is in lieu of my April report. I thought this time I would just embed wormchat (v1), my first attempt at an interactive chatbot. Building this has taught me a bit more about Markov chains, though I am still trying to wrap my head around them. You can see the source code (along with comments) at the following link: https://abbymachines.art/A/OneThousandMachines_v1-1/wormchat_v1/sketch.js.*
+Part of **One Thousand Machines v1.1**. Excerpted [from abbymachines.art](https://abbymachines.art/A/OneThousandMachines_v1-1/): *2022.5.2. This one is in lieu of my April report. I thought this time I would just embed wormchat (v1), my first attempt at an interactive chatbot. Building this has taught me a bit more about Markov chains, though I am still trying to wrap my head around them. [You can see the source code (along with comments) at my artist website.](https://abbymachines.art/A/OneThousandMachines_v1-1/wormchat_v1/sketch.js)
     `
   },
   {
@@ -152,7 +152,6 @@ My contribution made use of the Ableton Live API to launch randomly-selected pre
 function App() {
   return (
     <div className='background'>
-      {/* <Pet /> */}
       <center><h1 className='white-text'>Abby Castillo</h1></center>
       <center className='white-text'>full-stack software engineer</center>
       <Cards cardsData={cards} />

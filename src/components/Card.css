@@ -1,10 +1,4 @@
-/* .card-entry {
-    margin: 1rem;
-    align-items: center;
-} */
-
 .center {
-    display: flex;
     justify-content: center;
     align-items: center;
     height:100vh;  
@@ -16,17 +10,7 @@
     border-style: solid;
     border-width: 1px;
     border-radius: 5px;
-    max-width: 500px;
-    min-width: 10px;
     padding: 1rem 1.5rem 1rem 1.5rem;
-    position: relative;
-    /* width: 561px; */
     font-family: Helvetica, Arial, sans-serif;
-    /* height: 161; */
-    /* justify-self: right; */
     box-shadow: 0 2px 20px rgba(234, 78, 240, 0.2);
-}
-
-.expanded {
-    /* height: 394px; */
 }
