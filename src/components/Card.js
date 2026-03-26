@@ -1,16 +1,14 @@
 import "./Card.css";
-import Markdown from "markdown-to-jsx";
 
 function Card(props) {
-  const body = props.body;
-  const title = props.title;
+  const { title, image } = props;
 
   return (
-    <div className={"card-box"}>
-      <h2>{title}</h2>
-      <p>
-        <Markdown>{body}</Markdown>
-      </p>
+    <div className="card-box">
+      <img src={image} alt={title} className="card-image" />
+      <div className="card-title-overlay">
+        <h2 className="card-title">{title}</h2>
+      </div>
     </div>
   );
 }
