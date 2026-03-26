@@ -9,24 +9,6 @@ import "./components/Cards.css";
 import RealGirlOnline from "./components/projects/RealGirlOnline";
 
 const cards = [
-  // {
-  //   title: "Contact",
-  //   body: `
-  // Hello! :) My name is Abby Castillo.
-
-  // I am a full-stack software engineer and interdisciplinary artist based in Portland, OR.
-
-  // 💌 [**email**](mailto:abby.machines@gmail.com)
-
-  // 👩🏻‍💻 [**dev blog**](https://abbycastillodev.wordpress.com)
-
-  // 🐈‍⬛ [**GitHub**](https://github.com/abbymachines)
-
-  // 💼 [**LinkedIn**](https://www.linkedin.com/in/abbycc/)
-
-  // 🏆 [**Artist C.V.**](https://abbymachines.art/cv)
-  //   `,
-  // },
   {
     title: "IPRC Zine Library",
     image: "/assets/thumbnails/zine_library.png",
@@ -91,17 +73,6 @@ Part of **One Thousand Machines v1.1**.
 My contribution made use of the Ableton Live API to launch randomly-selected pre-arranged clips from a set of different virtual instruments. This script was routed through physical buttons powered by Teensyduino microprocessors.
     `,
   },
-  //   {
-  //     title: "Education",
-  //     image: "/assets/tamahabits0.png",
-  //     body: `
-  // **Ada Developers Academy**, full-stack web development
-
-  // **Portland Community College**, Creative Coding & Immersive Technologies.
-
-  // **Reed College**, Anthropology
-  //     `,
-  //   },
 ];
 
 function App() {
@@ -119,7 +90,8 @@ function App() {
               <a href="mailto:abby.machines@gmail.com">email</a> /{" "}
               <a href="https://abbycastillodev.wordpress.com"> dev blog</a> /{" "}
               <a href="https://github.com/abbymachines">GitHub</a> /{" "}
-              <a href="https://linkedin.com/in/abbycc">LinkedIn</a>
+              <a href="https://linkedin.com/in/abbycc">LinkedIn</a> /{" "}
+              <a href="https://abbymachines.art/cv">artist C.V.</a>
             </center>
             <center className="projects-heading">
               <i>PROJECTS</i>
