@@ -10,10 +10,12 @@ import RealGirlOnline from "./components/projects/RealGirlOnline";
 
 const cards = [
   {
-    title: "IPRC Zine Library",
+    title: "IPRC Zine Library Catalog",
     image: "/assets/thumbnails/zine_library.png",
     body: `
-Online catalog for the [IPRC Zine Library](https://www.iprc.org/zine-library).
+Work in progress. Online catalog for the [IPRC Zine Library](https://www.iprc.org/zine-library).
+
+Full-stack application built with WeWeb for the frontend, Xano for the backend, and Cloudflare for image hosting.
     `,
   },
   {
@@ -32,7 +34,9 @@ Online catalog for the [IPRC Zine Library](https://www.iprc.org/zine-library).
     title: "A (AR video series)",
     image: "/assets/thumbnails/A_AR videos.png",
     body: `
-'A' is a series of AR videos made with Meta Spark Studio. Part of a 2023 Precipice Fund grant. Videos online at [TikTok](https://tiktok.com/@abbymachines).
+'A' is a series of AR videos made with Meta Spark Studio.
+
+Part of a 2023 Precipice Fund grant. Videos online at [TikTok](https://tiktok.com/@abbymachines).
     `,
   },
   {
@@ -42,15 +46,17 @@ Online catalog for the [IPRC Zine Library](https://www.iprc.org/zine-library).
 **Tama Habits** is a habit tracker attached to a tamagotchi-style virtual pet. A demo of this app was first developed as my capstone project at the Ada Developers Academy.
 
 ![tama habits screenshot](/assets/tamahabits0.png)
+
+Built with Flutter as a cross-platform app.
     `,
   },
   {
     title: "The Extent of Our Knowledge",
     image: "/assets/thumbnails/the_extent_of_our_knowledge.png",
     body: `
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xNiid90HxCQ?si=ln9-q7JcsAXQI2uV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Data visualization/sonification made with MAX M/S/P. Created as a project during the Creative Coding & Immersive Technologies program at Portland Community College. Documents weekly COVID deaths from 2020-2022 as audio and visuals. 
 
-Data visualization/sonification made with MAX M/S/P. Created as a project during the Creative Coding & Immersive Technologies program at Portland Community College. Documents weekly COVID deaths from 2020-2022 as audio and visuals. [Video available on YouTube.](https://www.youtube.com/watch?v=xNiid90HxCQ)
+[Video available on YouTube.](https://www.youtube.com/watch?v=xNiid90HxCQ)
     `,
   },
   {
@@ -59,9 +65,7 @@ Data visualization/sonification made with MAX M/S/P. Created as a project during
     body: `
   ![screenshot of wormchat](/assets/wormchat0.png)
 
-Part of **One Thousand Machines v1.1**.
-
-[You can see the source code (along with comments) at my artist website.](https://abbymachines.art/A/OneThousandMachines_v1-1/wormchat_v1/sketch.js)
+[wormchat](https://abbymachines.art/A/OneThousandMachines_v1-1/wormchat_v1/) is a simple experimental chatbot. The concept is that you are speaking to a small worm with a limited grasp of language. The chatbot uses Markov chains to transform inputted text, and speaks its messages out loud using the user's system voice.
     `,
   },
   {
