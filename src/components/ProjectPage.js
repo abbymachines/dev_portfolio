@@ -1,5 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
+import "./ProjectPage.css";
 
 function ProjectPage({ cards }) {
   const { title } = useParams();
@@ -8,7 +9,7 @@ function ProjectPage({ cards }) {
 
   if (!card) {
     return (
-      <div className="background">
+      <div className="project-page">
         <Link to="/">BACK</Link>
         <p>Project not found.</p>
       </div>
@@ -16,9 +17,13 @@ function ProjectPage({ cards }) {
   }
 
   return (
-    <div className="background">
+    <div className="project-page">
       <Link to="/">BACK</Link>
-      <ReactMarkdown>{card.body}</ReactMarkdown>
+      {card.component ? (
+        card.component
+      ) : (
+        <ReactMarkdown>{card.body}</ReactMarkdown>
+      )}
     </div>
   );
 }

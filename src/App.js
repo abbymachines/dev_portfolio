@@ -5,6 +5,9 @@ import "./App.css";
 import "./components/Card.css";
 import "./components/Cards.css";
 
+// project imports
+import RealGirlOnline from "./components/projects/RealGirlOnline";
+
 const cards = [
   // {
   //   title: "Contact",
@@ -35,10 +38,13 @@ Online catalog for the [IPRC Zine Library](https://www.iprc.org/zine-library).
     title: "realgirl.online",
     image: "/assets/thumbnails/realgirl_online.png",
     body: `
-![realgirl.online screenshot](/assets/realgirl_online.png)
+# realgirl.online
+
+![realgirl.online screenshot](/assets/thumbnails/realgirl_online.png)
 
 [realgirl.online](https://realgirl.online) is a webzine, an experiment in getting lost and finding myself again.
       `,
+    component: <RealGirlOnline />,
   },
   {
     title: "A (AR video series)",
@@ -60,6 +66,8 @@ Online catalog for the [IPRC Zine Library](https://www.iprc.org/zine-library).
     title: "The Extent of Our Knowledge",
     image: "/assets/thumbnails/the_extent_of_our_knowledge.png",
     body: `
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xNiid90HxCQ?si=ln9-q7JcsAXQI2uV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Data visualization/sonification made with MAX M/S/P. Created as a project during the Creative Coding & Immersive Technologies program at Portland Community College. Documents weekly COVID deaths from 2020-2022 as audio and visuals. [Video available on YouTube.](https://www.youtube.com/watch?v=xNiid90HxCQ)
     `,
   },
@@ -107,6 +115,15 @@ function App() {
               <h1 className="website-title">Abby Castillo</h1>
             </center>
             <center className="website-subtitle">software engineer</center>
+            <center className="home-links">
+              <a href="mailto:abby.machines@gmail.com">email</a> /{" "}
+              <a href="https://abbycastillodev.wordpress.com"> dev blog</a> /{" "}
+              <a href="https://github.com/abbymachines">GitHub</a> /{" "}
+              <a href="https://linkedin.com/in/abbycc">LinkedIn</a>
+            </center>
+            <center className="projects-heading">
+              <i>PROJECTS</i>
+            </center>
             <Cards cardsData={cards} />
           </div>
         }
