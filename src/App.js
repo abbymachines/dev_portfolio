@@ -1,7 +1,6 @@
-// import logo from './logo.svg';
-// import Card from './components/Card';
+import { Routes, Route } from "react-router-dom";
 import Cards from "./components/Cards";
-// import Pet from './components/vpet/Pet';
+import ProjectPage from "./components/ProjectPage";
 import "./App.css";
 import "./components/Card.css";
 import "./components/Cards.css";
@@ -99,13 +98,21 @@ My contribution made use of the Ableton Live API to launch randomly-selected pre
 
 function App() {
   return (
-    <div className="background">
-      <center>
-        <h1 className="website-title">Abby Castillo</h1>
-      </center>
-      <center className="website-subtitle">software engineer</center>
-      <Cards cardsData={cards} />
-    </div>
+    <Routes>
+      <Route
+        path="/"
+        element={
+          <div className="background">
+            <center>
+              <h1 className="website-title">Abby Castillo</h1>
+            </center>
+            <center className="website-subtitle">software engineer</center>
+            <Cards cardsData={cards} />
+          </div>
+        }
+      />
+      <Route path="/projects/:title" element={<ProjectPage cards={cards} />} />
+    </Routes>
   );
 }
 
