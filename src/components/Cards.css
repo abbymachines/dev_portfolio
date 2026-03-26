@@ -12,4 +12,5 @@
 
 .cardslist-center li {
     aspect-ratio: 1 / 1;
+    background-color: transparent;
 }

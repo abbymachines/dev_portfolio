@@ -101,9 +101,9 @@ function App() {
   return (
     <div className="background">
       <center>
-        <h1 className="white-text">Abby Castillo</h1>
+        <h1 className="website-title">Abby Castillo</h1>
       </center>
-      <center className="white-text">software engineer</center>
+      <center className="website-subtitle">software engineer</center>
       <Cards cardsData={cards} />
     </div>
   );
