@@ -5,6 +5,7 @@ import "./App.css";
 import "./components/Card.css";
 import "./components/Cards.css";
 import Blog from "./components/Blog";
+import Title from "./components/Title";
 
 // project imports
 import RealGirlOnline from "./components/projects/RealGirlOnline";
@@ -87,19 +88,7 @@ function App() {
         path="/"
         element={
           <div className="background">
-            <center>
-              <h1 className="website-title">Abby Castillo</h1>
-            </center>
-            <center className="website-subtitle">software engineer</center>
-            <center className="home-links">
-              <a href="mailto:abby.machines@gmail.com">email</a> /{" "}
-              <a href="https://github.com/abbymachines">GitHub</a> /{" "}
-              <a href="https://linkedin.com/in/abbycc">LinkedIn</a> /{" "}
-              <a href="https://abbymachines.art/cv">artist C.V.</a>
-            </center>
-            <center>
-              <Link to="/blog">dev blog</Link>
-            </center>
+            <Title />
             <center className="projects-heading">
               <i>PROJECTS</i>
             </center>

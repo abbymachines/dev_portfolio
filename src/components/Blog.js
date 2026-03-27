@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Title from "./Title";
 
 function Blog() {
   const [posts, setPosts] = useState([]);
@@ -27,10 +28,7 @@ function Blog() {
 
   return (
     <div className="background">
-      <center>
-        <h1 className="website-title">Abby Castillo</h1>
-      </center>
-      <center className="website-subtitle">dev blog</center>
+      <Title />
       <div style={{ maxWidth: "700px", margin: "0 auto", padding: "1rem" }}>
         {posts.map((post) => (
           <article key={post.id} style={{ marginBottom: "2rem" }}>
