@@ -1,9 +1,10 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import Cards from "./components/Cards";
 import ProjectPage from "./components/ProjectPage";
 import "./App.css";
 import "./components/Card.css";
 import "./components/Cards.css";
+import Blog from "./components/Blog";
 
 // project imports
 import RealGirlOnline from "./components/projects/RealGirlOnline";
@@ -92,10 +93,12 @@ function App() {
             <center className="website-subtitle">software engineer</center>
             <center className="home-links">
               <a href="mailto:abby.machines@gmail.com">email</a> /{" "}
-              <a href="https://abbycastillodev.wordpress.com"> dev blog</a> /{" "}
               <a href="https://github.com/abbymachines">GitHub</a> /{" "}
               <a href="https://linkedin.com/in/abbycc">LinkedIn</a> /{" "}
               <a href="https://abbymachines.art/cv">artist C.V.</a>
+            </center>
+            <center>
+              <Link to="/blog">dev blog</Link>
             </center>
             <center className="projects-heading">
               <i>PROJECTS</i>
@@ -105,6 +108,7 @@ function App() {
         }
       />
       <Route path="/projects/:title" element={<ProjectPage cards={cards} />} />
+      <Route path="/blog" element={<Blog />} />
     </Routes>
   );
 }
