@@ -1,6 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import "./ProjectPage.css";
+import Title from "./Title";
 
 function ProjectPage({ cards }) {
   const { title } = useParams();
@@ -17,13 +18,16 @@ function ProjectPage({ cards }) {
   }
 
   return (
-    <div className="project-page">
-      <Link to="/">BACK</Link>
-      {card.component ? (
-        card.component
-      ) : (
-        <ReactMarkdown>{card.body}</ReactMarkdown>
-      )}
+    <div>
+      <Title />
+      <div className="project-page">
+        <Link to="/">BACK</Link>
+        {card.component ? (
+          card.component
+        ) : (
+          <ReactMarkdown>{card.body}</ReactMarkdown>
+        )}
+      </div>
     </div>
   );
 }

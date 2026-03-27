@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Title from "./Title";
+import "./Blog.css";
 
 function Blog() {
   const [posts, setPosts] = useState([]);
@@ -27,7 +28,7 @@ function Blog() {
   if (loading) return <p>Loading posts...</p>;
 
   return (
-    <div className="background">
+    <div className="blog">
       <Title />
       <div style={{ maxWidth: "700px", margin: "0 auto", padding: "1rem" }}>
         {posts.map((post) => (

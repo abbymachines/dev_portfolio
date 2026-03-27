@@ -6,7 +6,7 @@
     overflow: hidden;
     box-sizing: border-box;
     border: 1px solid blue;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 .card-box:hover {

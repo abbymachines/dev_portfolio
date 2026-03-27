@@ -1,12 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Headline&display=swap');
+
 .title-header {
-    display: flex;
     justify-content: center;
 }
 
 .title-content {
-    background-color: gray;
+    background-color: rgb(240, 238, 238);
     padding: 1rem;
-    margin: 1rem;
-    border: 1px solid red;
-    border-radius: 8px;
+    color: black;
+}
+
+.title-content a {
+    color: black;
+    text-decoration-color: blue;
+}
+
+.website-title {
+    font-family: 'Stack Sans Headline', sans-serif;
+    color: black;
+    font-size: 10vw;
+    justify-content: center;
+    display: inline;
+    text-overflow: clip;
+}
+
+.website-subtitle {
+    font-size: 7vw;
+}
+
+.home-links a {
+    color: black;
+    font-size: 3vw;
+}
+
+.home-links {
+    color: black;
+    font-size: 3vw;
 }

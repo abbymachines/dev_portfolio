@@ -7,18 +7,20 @@ function Title() {
       <div className="title-content">
         <center>
           <h1 className="website-title">
-            <Link to={"/"}>Abby Castillo</Link>
+            <Link to={"/"}>ABBY CASTILLO</Link>
           </h1>
         </center>
         <center className="website-subtitle">software engineer</center>
+        <br />
         <center className="home-links">
-          <a href="mailto:abby.machines@gmail.com">email</a> /{" "}
+          (external links: <a href="mailto:abby.machines@gmail.com">email</a> /{" "}
           <a href="https://github.com/abbymachines">GitHub</a> /{" "}
           <a href="https://linkedin.com/in/abbycc">LinkedIn</a> /{" "}
-          <a href="https://abbymachines.art/cv">artist C.V.</a>
+          <a href="https://abbymachines.art/cv">artist C.V.</a>)
         </center>
+        <br></br>
         <center>
-          <Link to="/blog">dev blog</Link>
+          <Link to="/blog">BLOG</Link>
         </center>
       </div>
     </header>

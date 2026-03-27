@@ -89,9 +89,9 @@ function App() {
         element={
           <div className="background">
             <Title />
-            <center className="projects-heading">
+            {/* <center className="projects-heading">
               <i>PROJECTS</i>
-            </center>
+            </center> */}
             <Cards cardsData={cards} />
           </div>
         }
