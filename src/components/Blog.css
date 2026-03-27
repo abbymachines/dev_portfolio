@@ -7,6 +7,10 @@
     background-color: white;
 }
 
+.blog img {
+    max-width: 600px;
+}
+
 .blog-post-title {
     font-family: "Zilla Slab Highlight";
 }

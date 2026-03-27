@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Title from "./Title";
 import "./Blog.css";
+import BlogPost from "./BlogPost";
 
 function Blog() {
   const [posts, setPosts] = useState([]);
@@ -41,14 +42,7 @@ function Blog() {
       <div className="blog">
         {posts.map((post) => (
           <article key={post.id} style={{ marginBottom: "2rem" }}>
-            <h2 className="blog-post-title">{post.title}</h2>
-            <p style={{ color: "#000000", fontSize: "0.85rem" }}>
-              {new Date(post.date).toLocaleDateString()}
-            </p>
-            <div dangerouslySetInnerHTML={{ __html: post.excerpt }} />
-            <a href={post.URL} target="_blank" rel="noreferrer">
-              Read more →
-            </a>
+            <BlogPost post={post} />
             <hr />
           </article>
         ))}
