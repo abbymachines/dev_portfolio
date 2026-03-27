@@ -25,16 +25,24 @@ function Blog() {
       });
   }, []);
 
-  if (loading) return <p>Loading posts...</p>;
+  if (loading)
+    return (
+      <div>
+        <Title />
+        <p>
+          <center>Loading posts...</center>
+        </p>
+      </div>
+    );
 
   return (
-    <div className="blog">
+    <div>
       <Title />
-      <div style={{ maxWidth: "700px", margin: "0 auto", padding: "1rem" }}>
+      <div className="blog">
         {posts.map((post) => (
           <article key={post.id} style={{ marginBottom: "2rem" }}>
-            <h2>{post.title}</h2>
-            <p style={{ color: "#888", fontSize: "0.85rem" }}>
+            <h2 className="blog-post-title">{post.title}</h2>
+            <p style={{ color: "#000000", fontSize: "0.85rem" }}>
               {new Date(post.date).toLocaleDateString()}
             </p>
             <div dangerouslySetInnerHTML={{ __html: post.excerpt }} />

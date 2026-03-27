@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+
 .blog {
-    /* background-color: white; */
-    /* display: block; */
-    /* width: fit-content; */
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: white;
+}
+
+.blog-post-title {
+    font-family: "Zilla Slab Highlight";
 }
