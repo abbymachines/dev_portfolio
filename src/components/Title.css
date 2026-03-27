@@ -1,0 +1,12 @@
+.title-header {
+    display: flex;
+    justify-content: center;
+}
+
+.title-content {
+    background-color: gray;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid red;
+    border-radius: 8px;
+}
