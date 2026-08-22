@@ -20,6 +20,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "resolutions": {
+    "svgo": "^2.8.3",
+    "serialize-javascript": "^7.0.5",
+    "postcss": "^8.5.26"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
